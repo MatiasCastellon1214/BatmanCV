@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*body*/
+body{                                   
+    h2{
+        color: #005677;
+        background-color: #C4C4C4;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    /*header*/
+    header{                             
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+        .cvBruce{
+            background-color: #C4C4C4;
+            width: 100%;
+            margin-top: 10px;
+            padding: 5px 0px;
+            h1{
+                color: #005677;
+                text-align: center;
+                font-size: 2rem;
+                font-family: 'Times New Roman';
+                font-style: normal;
+                font-weight: 700;   
+            }
+        }
+    }
+    /*main*/
+    main{                               
+        width: 100%;
+        .articuloUno{
+            margin-top: 120px;
+            display:flex;
+            flex-direction: column;
+            width: 100%;
+            .pers{
+                width: 100%;
+                h2{
+                    padding-left: 10px;
+                }
+            }
+            ul{
+                margin: 20px 0px 25px 19px;
+                li{
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                    font-size: 1.1rem;
+                    line-height: 84.69%;
+                    span{
+                        font-style: italic;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .articuloDos{
+            display: flex;
+            flex-direction: column;
+            h2{
+                padding-left: 10px;
+            }
+            .experiencia{
+                display: flex;
+                flex-direction: column;   
+                margin: 15px 0px;
+                padding-left: 16px;
+                width: 100%;
+                .periodo{
+                    display: flex;
+                    font-size: 1.1rem;
+                    width: 100%;
+                    margin: 8px 0px;
+                    .tiempo{
+                        font-weight: 700;
+                        font-family: 'Times New Roman';
+                        font-style: normal;
+                        font-size: 1.1rem;
+                    }
+                    .relleno{
+                        padding-left: 5px;
+                        width: 80%;
+                    }
+                }     
+            }
+        }
+        .articuloTres{
+            display: flex;
+            flex-direction: column;
+            h2{
+                padding-left: 10px ;
+            }
+            .experiencia{
+                display: flex;
+                flex-direction: column;   
+                margin: 15px 0px;
+                padding-left: 16px;
+                width: 100%;
+                .periodo{
+                    display: flex;
+                    font-size: 1.1rem;
+                    width: 100%;
+                    margin: 8px 0px;
+                    .tiempo{
+                        font-weight: 700;
+                        font-family: 'Times New Roman';
+                        font-style: normal;
+                        font-size: 1.1rem;
+                    }
+                    .relleno{
+                        padding-left: 5px;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+    /*footer*/
+    footer{                             
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #005677;
+        margin-top: 140px;
+        padding: 5px 0px;
+        div{
+            font-family: 'Times New Roman';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #FFFFFF;
+            margin: 0px 0px; 
+        }
+        a{
+            padding-left: 9px;
+            i{
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media(max-width:414px){
+    body{
+        header{
+            .cvBruce{
+                h1{
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        main{
+            h2{
+                font-size: 1rem;
+            }
+            .articuloUno{
+                .pers{
+                    width: 100%;
+                    h2{
+                        width: 100%;
+                    }
+                }
+                /*align-items: center;
+                ul{
+                    margin-left: 0px;
+                    li{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                }*/
+            }
+            .articuloDos{
+                .experiencia{
+                    .periodo{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                }
+            }
+            .articuloTres{
+                .experiencia{
+                    .periodo{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                }
+            }
+        }
+    }
+}

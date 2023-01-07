@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*body*/
+body {
+  /*header*/
+  /*main*/
+  /*footer*/
+}
+body h2 {
+  color: #005677;
+  background-color: #C4C4C4;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+body header {
+  background-color: #E6E6E6;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+body header .cvBruce {
+  background-color: #C4C4C4;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 0px;
+}
+body header .cvBruce h1 {
+  color: #005677;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+}
+body main {
+  width: 100%;
+}
+body main .articuloUno {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body main .articuloUno .pers {
+  width: 100%;
+}
+body main .articuloUno .pers h2 {
+  padding-left: 10px;
+}
+body main .articuloUno ul {
+  margin: 20px 0px 25px 19px;
+}
+body main .articuloUno ul li {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-size: 1.1rem;
+  line-height: 84.69%;
+}
+body main .articuloUno ul li span {
+  font-style: italic;
+  font-weight: 700;
+}
+body main .articuloDos {
+  display: flex;
+  flex-direction: column;
+}
+body main .articuloDos h2 {
+  padding-left: 10px;
+}
+body main .articuloDos .experiencia {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+  padding-left: 16px;
+  width: 100%;
+}
+body main .articuloDos .experiencia .periodo {
+  display: flex;
+  font-size: 1.1rem;
+  width: 100%;
+  margin: 8px 0px;
+}
+body main .articuloDos .experiencia .periodo .tiempo {
+  font-weight: 700;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-size: 1.1rem;
+}
+body main .articuloDos .experiencia .periodo .relleno {
+  padding-left: 5px;
+  width: 80%;
+}
+body main .articuloTres {
+  display: flex;
+  flex-direction: column;
+}
+body main .articuloTres h2 {
+  padding-left: 10px;
+}
+body main .articuloTres .experiencia {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+  padding-left: 16px;
+  width: 100%;
+}
+body main .articuloTres .experiencia .periodo {
+  display: flex;
+  font-size: 1.1rem;
+  width: 100%;
+  margin: 8px 0px;
+}
+body main .articuloTres .experiencia .periodo .tiempo {
+  font-weight: 700;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-size: 1.1rem;
+}
+body main .articuloTres .experiencia .periodo .relleno {
+  padding-left: 5px;
+  width: 80%;
+}
+body footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005677;
+  margin-top: 140px;
+  padding: 5px 0px;
+}
+body footer div {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  margin: 0px 0px;
+}
+body footer a {
+  padding-left: 9px;
+}
+body footer a i {
+  color: #FFFFFF;
+}
+
+@media (max-width: 414px) {
+  body header .cvBruce h1 {
+    font-size: 1.7rem;
+  }
+  body main h2 {
+    font-size: 1rem;
+  }
+  body main .articuloUno {
+    /*align-items: center;
+    ul{
+        margin-left: 0px;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }*/
+  }
+  body main .articuloUno .pers {
+    width: 100%;
+  }
+  body main .articuloUno .pers h2 {
+    width: 100%;
+  }
+  body main .articuloDos .experiencia .periodo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  body main .articuloTres .experiencia .periodo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}/*# sourceMappingURL=style.css.map */
